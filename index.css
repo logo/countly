@@ -1,22 +1,2 @@
-
-/**
- * Countly
- */
-
-.logo[data-logo="Countly"] {
-  width: 3.73593em;
-  /* (679.26/200) * (1+.05+.05) - 0 */
-}
-
-.logo[data-logo="Countly"] > * {
-  background-image: url(images/logo.svg);
-  margin: -.05em 0;
-}
-
-.logo[data-logo="Countly"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Countly"][data-color="black"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
